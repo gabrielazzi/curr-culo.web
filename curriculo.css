@@ -1,0 +1,176 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(105, 107, 113, 0.333);
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.tudo{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    border: 10px groove #004e6c;
+    
+
+}
+.cabecalho{
+    
+}
+
+.nome{
+    padding: 20px;
+    background-color:  #044e6c;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.perfil{
+    display: flex;
+}
+
+.perfil > img{
+     border-radius: 15%;
+     width: auto;
+     height: 100px;
+     margin: 10px;
+}
+.contato{
+    padding-left: 30px;
+}
+
+.letra_colorida {
+   color:  #044e6c;
+   display: inline-block;
+
+}
+h2:after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    margin-left: 1rem;
+}
+
+h2 {
+    overflow: hidden;
+    position: relative;
+}
+
+.objetivo > p {
+    margin-left: 20px;
+}
+
+.habilidade{
+    padding-left: 15px;
+    border-right: 3px solid #044e6c;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.separador1{
+    border: none;
+    background-color:  #044e6c;
+    height: 2px;
+    width: 100%;
+    margin-left: -9px;
+    margin-top: -1px;
+}
+
+.separador2{
+    border: none;
+    background-color:  #044e6c;
+    height: 2px;
+    width: 105%;
+    margin-left: -9px;
+    margin-top: 9px;
+}
+
+.linhas-tracejada1{
+    border: 15px dotted #044e6c;
+    border-bottom: none ;
+    width: 14%;
+    margin-left: 46px;
+}
+
+.linhas-tracejada2{
+    border: 15px dotted #044e6c;
+    border-bottom: none ;
+    width: 10%;
+    margin-left: 52px;
+}
+
+.linhas-tracejada3{
+    border: 15px dotted #044e6c;
+    border-bottom: none ;
+    width: 30%;
+    margin-left: 8px;
+}
+
+.linhas-tracejada4{
+    border: 15px dotted #044e6c;
+    border-bottom: none ;
+    width: 4%;
+    margin-left: 8px;
+}
+
+.linhas-tracejada5{
+    border: 15px dotted #044e6c;
+    border-bottom: none ;
+    width: 4%;
+    margin-left: 85px;
+}
+
+.linhas-tracejada6{
+    border: 15px dotted #044e6c;
+    border-bottom: none ;
+    width: 55%;
+    margin-left: 17px;
+}
+
+.linhas-tracejada7{
+    border: 15px dotted #044e6c;
+    border-bottom: none ;
+    width: 55%;
+    margin-left: 58px;
+}
+
+.linhas-tracejada8{
+    border: 15px dotted #044e6c;
+    border-bottom: none ;
+    width: 55%;
+    margin-left: 8px;
+}
+
+.habilidade-linha{
+    display: flex;
+    margin-top: -15px;
+
+}
+
+.habilidade-pai{
+    display: flex;
+}   
+
+.exp-profissional{
+    padding-left: 20px;
+}
+
+
+.rede-social:hover
+{
+    transform:scale(1.5);
+}
+
+.dados-pessoais > a:hover {
+    margin: 10px;
+}
+
+.habilidade-linha > hr{
+    position: relative;
+    top: -7px;
+}
